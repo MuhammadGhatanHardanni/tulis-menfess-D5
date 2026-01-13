@@ -52,7 +52,7 @@ services:
 #--- VOLUMES AND NETWORKS ---
 volumes:
   db_data:
-    name: mysql_data_${GROUP_NAME}
+    name: mysql_dataa_${GROUP_NAME}
     driver: local
 
 networks:
